@@ -1,30 +1,48 @@
-# ml-bootcamp
-This repository contains homework assignments that were completed during Machine learning bookcamp (2024 December - present (2025 May))
-These assignments focus on the application of various machine learning (ML) methods to practical problems. At the moment, the course is in progress and assists will be added. 
+# **ML Bootcamp**  
+This repository contains homework assignments completed during the **Machine Learning Bootcamp** (December 2024 – May 2025). The assignments focus on applying various machine learning (ML) techniques to real-world problems. The course is currently ongoing, and additional materials will be added over time.  
 
-## General Knowleges
-- 1-1 Fundamentals_of_statistics.ipynb
-covers the basics of statistics, application of the T-test, Chi-square test, Pearson correlation and demonstrates basic skills in writing code for data analytics
-- 1-2 Credit_EDA.ipynb
-Contains a detailed exploratory analysis of lending data. This includes outlier detection, gap analysis, visualisation of categorical, continuous and mix data for visual assessment of the dataset
+📌 **Note:** This is an English translation of the original repository, where all assignments are submitted and version-controlled: [ML-Course (Original Repository)](https://github.com/ExcellentDarkTea/ML-Course).  
 
-## Supervised ML
-- *2_1_Analysis_of_features_for_building_linear_regression.ipynb*
-Introduction to regression tasks for medical-charges. (interactive visualisation with plotly.express)
-- *2_1_Building_linear_regression_by_one_attribute.ipynb*
-Building a linear regression from a single variable using Linear Regression
-- 2_1_Linear_regression_of_multiple_variables.ipynb
-Improving the linear regression model and using multiple features for prediction. Also analysing the results for statistical significance of coefficients using statsmodels
-- 2_2_Mathematical_formulation_of_logistic_regression.ipynb
-Manually written mathematical framework for logistic regression (sigmoid, hypothesis function, gradient descent, probability calculation)
-- 2_2_Logistic_regression_with_scikit_learn.ipynb
-Bank Customer Churn Prediction classification task. Conducting exploratory data analysis, coding features, building a logistic regression and evaluating it. Saving all models via joblib
-- 2_2_Polynomial_Features_Pipelines.ipynb
-Improving the classifier (from the previous task) by generating new features (polynomials) and using pipelines to optimise code performance
-- 2_2_Unbalanced_multiclass_classification.ipynb
-Using the SMOTENC, SMOTE-TOMEK methods for balancing classes for the customer segmentation task.
-- HW_2_4_kNN_CrossValidation_param_tuning.ipynb
-Finding optimal parameters for decision trees using GridSearchCV and RandomizedSearchCV. Using KNeighborsClassifier for a banking problem.
-- HW_2_4_boosting.ipynb
-Improvement of the cannabis using boosting algorithms and the use of XGBClassifier and LightGBM. Hyperparameter tuning was done through a Bayesian approach using hyperoptю
-Final results and summary of finding the best classifier for the Bank Customer Churn Prediction task 
+## 📂 **Repository Structure**  
+
+### 🔹 **1. General Knowledge**  
+- 📘 **1-1 Fundamentals of Statistics.ipynb**  
+  Covers statistical basics, including the **T-test, Chi-square test, Pearson correlation** and so on, and fundamental data analytics coding.  
+- 📘 **1-2 Credit EDA.ipynb**  
+  Exploratory analysis of lending data: **outlier detection, missing data analysis, and visualization** of categorical, continuous, and mixed data for dataset assessment.  
+
+### 🔹 **2. Supervised Machine Learning**  
+
+#### 📌 **Regression Analysis**  
+- 📗 **2-1-1 Analysis of features for building linear regression.ipynb**  
+  Introduction to regression using **medical charge prediction**, with interactive **Plotly visualizations**. Implementing a linear ***regression function from scratch**  
+- 📗 **2-1-2 Building linear regression by one attribute.ipynb**  
+  Implements **single-variable** linear regression using Scikit-learn.  
+- 📗 **2-1-3 Linear regression of multiple variables.ipynb**  
+  Enhances regression models using multiple features and evaluates statistical significance with **statsmodels**.  
+
+#### 📌 **Classification**  
+- 📙 **2-2-1 Mathematical formulatioт of logistic regression.ipynb**  
+  Derives logistic regression **from scratch**: **sigmoid function, hypothesis, gradient descent, probability calculations**.  
+- 📙 **2-2-2 Logistic regression with sciki _learn.ipynb**  
+  **Bank Customer Churn Prediction**: Exploratory analysis, feature engineering, logistic regression training, and **model saving (joblib)**.  
+- 📙 **2-2-3 Polynomial Features and Pipelines.ipynb**  
+  Improves classification by generating **polynomial features** and optimizing code with **pipelines**.  
+- 📙 **2-2-4 Unbalanced multiclass classification.ipynb**  
+  Uses **SMOTENC & SMOTE-TOMEK** for handling class imbalances in a **customer segmentation** task.
+- 📕 **2_3_Decision_tree.ipynb**
+Implements decision trees for classification, analyzes feature importance, and extracts rules for decision-making.
+- 🛠 process_bank_churn.py
+A modular preprocessing script for cleaning, encoding, and splitting the Bank Churn dataset. Key advantages:
+    - Well-structured functions with docstrings.
+    - Special function *preprocess_new_data()* for handling new data efficiently.
+
+#### 📌 **Advanced Classification & Model Optimization**  
+- 📕 **2_4_kNN_CrossValidation_param_tuning.ipynb**  
+  Tunes hyperparameters for **kNN and Decision Trees** using **GridSearchCV & RandomizedSearchCV** for a **banking dataset**.  
+- 📕 **HW_2_4_boosting.ipynb**  
+  Enhances classification using **boosting algorithms** (**XGBoost, LightGBM**) with **Bayesian hyperparameter tuning (Hyperopt)**.  
+  - **Final Summary:** Best classifier selection for the **Bank Customer Churn Prediction** task.  
+
+## 🚀 **Future Updates**  
+Upcoming assignments will cover **time series analisy, unsupervised learning, deep learning, NLM, LLM, ML deployment**.
