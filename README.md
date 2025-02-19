@@ -45,4 +45,4 @@ A modular preprocessing script for cleaning, encoding, and splitting the Bank Ch
   - **Final Summary:** Best classifier selection for the **Bank Customer Churn Prediction** task.  
 
 ## 🚀 **Future Updates**  
-Upcoming assignments will cover **time series analisy, unsupervised learning, deep learning, NLM, LLM, ML deployment**.
+Upcoming assignments will cover **time series analisy, unsupervised learning, deep learning, NLP, LLM, ML deployment**.
