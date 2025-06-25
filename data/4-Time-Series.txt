@@ -1,0 +1,5 @@
+Airline Passengers Prediction
+https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv
+
+Store Item Demand Forecasting
+https://www.kaggle.com/competitions/demand-forecasting-kernels-only/overview

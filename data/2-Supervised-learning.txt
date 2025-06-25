@@ -1,2 +1,13 @@
-medical-charges.csv : https://drive.google.com/file/d/1yTwp-_2F5hlMj0G_J94HTzb7lVHdEp5c/view
+medical-charges.csv : 
+https://drive.google.com/file/d/1yTwp-_2F5hlMj0G_J94HTzb7lVHdEp5c/view
+
+Cars.csv
 https://drive.google.com/file/d/1TFKLIaiOokLdYlkGntL6lBczVR3cfipr/view
+
+
+Bank Customer Churn Prediction
+https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction
+https://www.kaggle.com/competitions/bank-customer-churn-prediction-dlu-course-c-2
+
+Customer Segmentation
+https://www.kaggle.com/datasets/abisheksudarshan/customer-segmentation/data?select=train.csv
